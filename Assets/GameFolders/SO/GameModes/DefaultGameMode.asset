@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e7fc2e250d2d0b4bbf8d33773f1e77c, type: 3}
+  m_Name: DefaultGameMode
+  m_EditorClassIdentifier: 
+  Levels:
+  - {fileID: 11400000, guid: 3f6dfa2336ef3ad44923a61c23a804ce, type: 2}
+  _startConfig: {fileID: 11400000, guid: c7c6e66e8ea18cb4899056777e2b9d49, type: 2}

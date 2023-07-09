@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0fccb05631d18f4db76c49e3c441e11, type: 3}
+  m_Name: Level 1
+  m_EditorClassIdentifier: 
+  parts:
+  - rid: 2472261345763655680
+  - rid: 2472261345763655681
+  - rid: 2472261345763655682
+  references:
+    version: 2
+    RefIds:
+    - rid: 2472261345763655680
+      type: {class: StartPart, ns: LevelSystem, asm: Assembly-CSharp}
+      data:
+        _manager: {fileID: 4750795311688728387, guid: c174d3f7a74889e45aafcfbac7d2cb4d,
+          type: 3}
+    - rid: 2472261345763655681
+      type: {class: RopePart, ns: LevelSystem, asm: Assembly-CSharp}
+      data:
+        _ropeArea: {fileID: 8412204720492720385, guid: 82c4e37d39eaddf429117d1e635b4152,
+          type: 3}
+    - rid: 2472261345763655682
+      type: {class: FinishPart, ns: LevelSystem, asm: Assembly-CSharp}
+      data:
+        _finishArea: {fileID: 2382234415436990562, guid: a453708c91a4ac542a1cf8c93308a4ca,
+          type: 3}
